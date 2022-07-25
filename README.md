@@ -1,0 +1,1 @@
+# SmartMethod_Internship_Task2_Move_Robotic_arm
