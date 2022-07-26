@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title> Speach to text </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+  <link rel="stylesheet" type="text/css" href="style_.css">
+
+</head>
+
+<body>
+
+  <div class="speech_to_text">
+    <img id="logo_img" src="logo.png" alt="logo" />
+    <h1 id="header"> Speech To Text </h1>
+    <textarea id="Text_area"> </textarea>
+    <button id="connectButton" onclick="connectSerial()"> Connect </button>
+    <button id="click_to_start"> Start </button>
+    <button id="click_to_stop"> Stop </button>
+
+  </div>
+
+  <script type = "text/javascript" src="WebSpeech.js"> </script>
+  <script type = "text/javascript" src="WebSerial.js"> </script>
+
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+
+
+
+body {
+ font-family: "Times New Roman", Times, serif;
+ font-size: 14px;
+ background-image: linear-gradient(to right bottom, #186d7c, #e83e8c);
+ min-height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+.speech_to_text{
+  width: 600px;
+  text-align: center;
+}
+
+
+#Text_area{
+  text-align: center;
+  width: 600px;
+  height: 300px;
+  resize: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+
+}
+
+#click_to_start{
+  width: 80px;
+  height: 30px;
+  resize: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#click_to_stop{
+  width: 80px;
+  height: 30px;
+  resize: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+#connectButton{
+  width: 80px;
+  height: 30px;
+  resize: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  background-color: #e83e8c;
+}
+
+#header{
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#logo_img{
+  height: 85.141px;
+  width: 250px;
+  margin-bottom: 0px;
+}
+
+button {
+  background-color: #186d7c;
+  color: #fff;
+  margin-bottom: 10px;
+  border-color: #fff;
+  border-width: 0.5px;
+}
